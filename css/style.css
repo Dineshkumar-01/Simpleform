@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    height: 500px;
+    width: 100%;
+}
+.logo{
+ background-image: url(../images/prf.jpg);
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ margin: auto;
+}
+.container{
+    
+    margin: auto;
+    background-color: rgb(191, 240, 252);
+    height:500px;
+    width: 500px;
+    
+    border-radius: 10px;
+    box-shadow:12px 20px 5px gray;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.title{
+    color: rgb(0, 116, 249);
+    text-align: center;
+    
+}
+label{
+    display: block;
+    margin-top: 10px;
+
+    color: rgb(0, 116, 249);
+}
+input,button{
+padding: 5px;
+box-shadow: 5px 5px grey;
+border: none;
+border-radius: 10px;
+width:400px;
+}
+button{
+    background-color: blue;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(115, 178, 255);
+}
